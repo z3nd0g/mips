@@ -10,7 +10,7 @@ output:		.asciiz "output.bmp"
 		.align 2
 blad_otw:	.asciiz "Błąd otwarcia pliku"
 
-maska_filtru:	.byte	1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1, 24,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1 #1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1	
+maska_filtru:	.byte	-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1, 24,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
 		.eqv	rozmiar_maski 	0x5
 		.eqv	dzielnik	25
 
